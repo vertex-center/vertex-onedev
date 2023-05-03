@@ -6,14 +6,14 @@
     "environment": [
         {
             "type": "port",
-            "name": "PORT",
+            "name": "PORT_CLIENT",
             "display_name": "Client Port",
             "default": "6610",
             "description": "The port to expose the OneDev client."
         },
         {
             "type": "port",
-            "name": "PORT",
+            "name": "PORT_SERVER",
             "display_name": "Server Port",
             "default": "6611",
             "description": "The port to expose the OneDev server."
