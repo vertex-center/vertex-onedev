@@ -1,0 +1,34 @@
+{
+    "id": "vertex-onedev",
+    "name": "Vertex Code Server",
+    "repository": "github.com/vertex-center/vertex-onedev",
+    "description": "A onedev wrapper for Vertex.",
+    "environment": [
+        {
+            "type": "port",
+            "name": "PORT",
+            "display_name": "Client Port",
+            "default": "6610",
+            "description": "The port to expose the OneDev client."
+        },
+        {
+            "type": "port",
+            "name": "PORT",
+            "display_name": "Server Port",
+            "default": "6611",
+            "description": "The port to expose the OneDev server."
+        }
+    ],
+    "methods": {
+        "docker": {
+            "image": "1dev/server",
+            "ports": [
+                "6610",
+                "6611"
+            ],
+            "volumes": {
+                "data": "/opt/onedev"
+            }
+        }
+    }
+}
