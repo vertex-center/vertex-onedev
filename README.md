@@ -11,7 +11,7 @@
 
 ## About
 
-A simple wrapper to install [OneDev](https://github.com/coder/onedev) in Vertex.
+A simple wrapper to install [OneDev](https://onedev.io) in Vertex.
 
 ## Install
 
