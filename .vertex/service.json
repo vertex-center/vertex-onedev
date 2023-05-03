@@ -1,8 +1,8 @@
 {
     "id": "vertex-onedev",
-    "name": "Vertex Code Server",
+    "name": "Vertex OneDev",
     "repository": "github.com/vertex-center/vertex-onedev",
-    "description": "A onedev wrapper for Vertex.",
+    "description": "A OneDev wrapper for Vertex.",
     "environment": [
         {
             "type": "port",
