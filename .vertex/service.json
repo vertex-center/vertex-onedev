@@ -21,6 +21,7 @@
     ],
     "urls": [
         {
+            "name": "OneDev",
             "port": "6610",
             "ping": "/",
             "kind": "client"
