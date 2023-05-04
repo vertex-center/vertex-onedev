@@ -19,6 +19,13 @@
             "description": "The port to expose the OneDev server."
         }
     ],
+    "urls": [
+        {
+            "port": "6610",
+            "ping": "/",
+            "kind": "client"
+        }
+    ],
     "methods": {
         "docker": {
             "image": "1dev/server",
