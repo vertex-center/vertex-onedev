@@ -30,10 +30,10 @@
     "methods": {
         "docker": {
             "image": "1dev/server",
-            "ports": [
-                "6610",
-                "6611"
-            ],
+            "ports": {
+                "6610": "6610",
+                "6611": "6611"
+            },
             "volumes": {
                 "data": "/opt/onedev"
             }
